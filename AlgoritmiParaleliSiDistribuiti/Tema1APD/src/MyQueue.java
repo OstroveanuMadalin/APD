@@ -8,30 +8,30 @@ public class MyQueue {
     MyQueue(int dimensiuneCoada) {
 
         queueSize = dimensiuneCoada;
+
     }
 
-    public synchronized void adauga(Integer element) throws InterruptedException {
-
+    public synchronized void adauga(int element) throws InterruptedException
+    {
         while (coada.size() == queueSize) {
             System.out.println("Nu se mai pot produce elemente, coada este plina");
             wait();
         }
-
+        System.out.println("Am produs elementul " + element);
         coada.add(element);
         notify();
-        Thread.sleep(3000);
-
     }
 
-    public synchronized void scoate(int element) throws InterruptedException{
+    public synchronized void scoate() throws InterruptedException{
 
         while(coada.size()==0) {
             System.out.println("Nu se mai pot consuma elemente, coada este goala");
             wait();
+
         }
-        coada.remove(element);
+        int elem=coada.remove();
+        System.out.println("Am consumat elementul:" +elem);
         notify();
-        Thread.sleep(3000);
 
     }
 }

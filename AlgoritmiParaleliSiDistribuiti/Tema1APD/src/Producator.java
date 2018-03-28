@@ -1,22 +1,23 @@
-
 public class Producator extends Thread {
 
-    public int val;
-    Producator (){
-        val=0;
-    }
-    public int getVal(){
-        return val;
-    }
-    @Override
+    public static  int val=0;
+    Object obj= new Object();
+
+
+    @Override 
     public void run() {
 
 
         while (true){
-            val+=1;
+
             try {
-                ProducatorConsumator.coada.adauga(val);
-                System.out.println("Am produs elementul " + val);
+               int tmp;
+                synchronized (obj) {
+                    tmp = val;
+                    val++;
+                    }
+                ProducatorConsumator.coada.adauga(tmp);
+
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
