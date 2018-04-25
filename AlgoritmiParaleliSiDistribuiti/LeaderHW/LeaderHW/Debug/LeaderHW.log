@@ -1,0 +1,15 @@
+﻿  LeaderHW.cpp
+c:\users\mados\source\repos\leaderhw\leaderhw\leaderhw.cpp(15): error C3861: 'MPI_Init': identifier not found
+c:\users\mados\source\repos\leaderhw\leaderhw\leaderhw.cpp(16): error C2065: 'MPI_COMM_WORLD': undeclared identifier
+c:\users\mados\source\repos\leaderhw\leaderhw\leaderhw.cpp(16): error C3861: 'MPI_Comm_size': identifier not found
+c:\users\mados\source\repos\leaderhw\leaderhw\leaderhw.cpp(17): error C2065: 'MPI_COMM_WORLD': undeclared identifier
+c:\users\mados\source\repos\leaderhw\leaderhw\leaderhw.cpp(17): error C3861: 'MPI_Comm_rank': identifier not found
+c:\users\mados\source\repos\leaderhw\leaderhw\leaderhw.cpp(28): error C2065: 'MPI_INT': undeclared identifier
+c:\users\mados\source\repos\leaderhw\leaderhw\leaderhw.cpp(28): error C2065: 'MPI_COMM_WORLD': undeclared identifier
+c:\users\mados\source\repos\leaderhw\leaderhw\leaderhw.cpp(28): error C3861: 'MPI_Send': identifier not found
+c:\users\mados\source\repos\leaderhw\leaderhw\leaderhw.cpp(32): error C2065: 'MPI_INT': undeclared identifier
+c:\users\mados\source\repos\leaderhw\leaderhw\leaderhw.cpp(32): error C2065: 'MPI_ANY_SOURCE': undeclared identifier
+c:\users\mados\source\repos\leaderhw\leaderhw\leaderhw.cpp(32): error C2065: 'MPI_COMM_WORLD': undeclared identifier
+c:\users\mados\source\repos\leaderhw\leaderhw\leaderhw.cpp(32): error C2065: 'MPI_STATUSES_IGNORE': undeclared identifier
+c:\users\mados\source\repos\leaderhw\leaderhw\leaderhw.cpp(32): error C3861: 'MPI_Recv': identifier not found
+c:\users\mados\source\repos\leaderhw\leaderhw\leaderhw.cpp(41): error C3861: 'MPI_Finalize': identifier not found
