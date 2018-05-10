@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  RoyFloyd.cpp
+c:\users\mados\source\repos\royfloyd\royfloyd.cpp(10): warning C4326: return type of 'main' should be 'int' instead of 'void'
+c:\users\mados\source\repos\royfloyd\royfloyd.cpp(27): warning C4101: 'status': unreferenced local variable
+c:\users\mados\source\repos\royfloyd\royfloyd.cpp(21): warning C4101: 'message': unreferenced local variable
+c:\users\mados\source\repos\royfloyd\royfloyd.cpp(21): warning C4101: 'partner': unreferenced local variable
+  RoyFloyd.vcxproj -> c:\users\mados\source\repos\RoyFloyd\x64\Debug\RoyFloyd.exe
